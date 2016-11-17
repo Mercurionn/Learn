@@ -1,0 +1,31 @@
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+.pulso {
+    width: auto;
+    margin-left: 3px;
+}
+
+.pulso:hover {
+    -webkit-animation: pulse 1s;
+    -moz-animation: pulse 1s;
+    -ms-animation: pulse 1s;
+}
+
+.topo {
+    margin-left: 5px;
+}
+
+.arena {
+    border-style: solid;
+    border-width: 1px;
+}
